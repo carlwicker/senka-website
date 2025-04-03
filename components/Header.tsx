@@ -2,6 +2,7 @@ export default function Header() {
   return (
     <div className="flex flex-col text-center pt-[33vh] font-semibold gap-20">
       <h1 className="text-3xl font-bold">SENKA LOOSEMORE</h1>
+      <nav></nav>
       <div>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos libero
         consequuntur quaerat qui facere impedit tempora corrupti, vero aliquid?
