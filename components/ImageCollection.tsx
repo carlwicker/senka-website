@@ -22,9 +22,9 @@ export default function ImageCollection() {
           accompanied by fear and uncertainty.
         </p>
         <p>
-          I've encountered a number of “Dark Nights of the Soul,” some of which
-          felt like an ego death, and others like a re-enactment of past trauma.
-          During the night that I have represented in this piece, I was
+          I&apos;ve encountered a number of “Dark Nights of the Soul,” some of
+          which felt like an ego death, and others like a re-enactment of past
+          trauma. During the night that I have represented in this piece, I was
           convinced that my daughter had been killed, that my legs had been
           broken, and that I was blinded by fear. Through years of reflection, I
           now view these episodes as both a rapid spiritual journey and a mental
