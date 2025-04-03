@@ -1,7 +1,7 @@
 export default function Home() {
   return (
-    <div className="bg-white flex justify-center items-center flex-col h-screen text-black container mx-auto gap-20">
-      <div className="flex flex-col items-center gap-10">
+    <div className="bg-white flex flex-col text-black container mx-auto gap-20">
+      <div className="flex flex-col items-center gap-10 pt-[33vh]">
         <div className="text-3xl font-bold">SENKA LOOSEMORE</div>
         <div>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos libero
