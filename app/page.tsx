@@ -3,6 +3,8 @@ import ImageCollection from "@/components/ImageCollection";
 import SubHeader from "@/components/SubHeader";
 import Footer from "@/components/Footer";
 
+import imageCollectionData from "@/data/imageCollectionData.json";
+
 export default function Home() {
   return (
     <div>
@@ -13,9 +15,9 @@ export default function Home() {
             <SubHeader />
           </header>
           <main className="flex flex-col gap-20">
-            <ImageCollection />
-            <ImageCollection />
-            <ImageCollection />
+            {imageCollectionData.map((item, index) => (
+              <ImageCollection key={index} ImageCollectionData={item} />
+            ))}
           </main>
         </div>
       </div>
