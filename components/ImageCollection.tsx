@@ -47,26 +47,68 @@ export default function ImageCollection({
           className="rounded-lg"
           priority={true}
         />
-        <div className="w-full bg-gray-400 mt-4" />
-        <div className="flex ">
-          <Image
-            src="/placeholder.jpg"
-            alt="Placeholder image"
-            layout="responsive" // Makes the width dynamic
-            width={1024} // Aspect ratio width
-            height={768} // Aspect ratio height
-            className="bg-red-600 w-1/2"
-            priority={true}
-          />
-          <Image
-            src="/placeholder.jpg"
-            alt="Placeholder image"
-            layout="responsive" // Makes the width dynamic
-            width={1024} // Aspect ratio width
-            height={768} // Aspect ratio height
-            className="bg-red-500 w-1/2"
-            priority={true}
-          />
+        <div className="w-full mt-4" />
+        <div className="flex flex-wrap">
+          <div className="w-1/2 bg-red-400 ">
+            <Image
+              src="/placeholder.jpg"
+              alt="Placeholder image"
+              layout="responsive"
+              width={1024}
+              height={768}
+              className="rounded-lg"
+            />
+          </div>
+          <div className="w-1/2 bg-red-500 ">
+            <Image
+              src="/placeholder.jpg"
+              alt="Placeholder image"
+              layout="responsive"
+              width={1024}
+              height={768}
+              className="rounded-lg"
+            />
+          </div>
+          <div className="w-1/2 bg-red-600">
+            <Image
+              src="/placeholder.jpg"
+              alt="Placeholder image"
+              layout="responsive"
+              width={1024}
+              height={768}
+              className="rounded-lg"
+            />
+          </div>
+          <div className="w-1/2 bg-red-700 ">
+            <Image
+              src="/placeholder.jpg"
+              alt="Placeholder image"
+              layout="responsive"
+              width={1024}
+              height={768}
+              className="rounded-lg"
+            />
+          </div>
+          <div className="w-1/2 bg-red-800 ">
+            <Image
+              src="/placeholder.jpg"
+              alt="Placeholder image"
+              layout="responsive"
+              width={1024}
+              height={768}
+              className="rounded-lg"
+            />
+          </div>
+          <div className="w-1/2 bg-red-900 ">
+            <Image
+              src="/placeholder.jpg"
+              alt="Placeholder image"
+              layout="responsive"
+              width={1024}
+              height={768}
+              className="rounded-lg"
+            />
+          </div>
         </div>
       </div>
     </div>
