@@ -5,6 +5,7 @@ interface ImageCollectionData {
   dimensions: string;
   year: number;
   description: string[];
+  images: { src: string; width: number; height: number; alt?: string }[];
 }
 
 export default function ImageCollection({
@@ -39,76 +40,30 @@ export default function ImageCollection({
       </div>
       <div className="bg-gray-200 w-full lg:w-2/3 flex flex-col">
         <Image
-          src="/placeholder.jpg"
-          alt="Placeholder image"
-          layout="responsive" // Makes the width dynamic
-          width={1024} // Aspect ratio width
-          height={768} // Aspect ratio height
-          className="rounded-lg"
+          src={`/images/collection-1/${ImageCollectionData.images[0].src}`}
+          alt={ImageCollectionData.title}
+          width={ImageCollectionData.images[0].width} // Aspect ratio width
+          height={ImageCollectionData.images[0].height} // Aspect ratio height
+          className=""
           priority={true}
         />
-        <div className="w-full mt-4" />
+        <div className="w-full" />
         <div className="flex flex-wrap">
-          <div className="w-1/2 bg-red-400 ">
-            <Image
-              src="/placeholder.jpg"
-              alt="Placeholder image"
-              layout="responsive"
-              width={1024}
-              height={768}
-              className="rounded-lg"
-            />
-          </div>
-          <div className="w-1/2 bg-red-500 ">
-            <Image
-              src="/placeholder.jpg"
-              alt="Placeholder image"
-              layout="responsive"
-              width={1024}
-              height={768}
-              className="rounded-lg"
-            />
-          </div>
-          <div className="w-1/2 bg-red-600">
-            <Image
-              src="/placeholder.jpg"
-              alt="Placeholder image"
-              layout="responsive"
-              width={1024}
-              height={768}
-              className="rounded-lg"
-            />
-          </div>
-          <div className="w-1/2 bg-red-700 ">
-            <Image
-              src="/placeholder.jpg"
-              alt="Placeholder image"
-              layout="responsive"
-              width={1024}
-              height={768}
-              className="rounded-lg"
-            />
-          </div>
-          <div className="w-1/2 bg-red-800 ">
-            <Image
-              src="/placeholder.jpg"
-              alt="Placeholder image"
-              layout="responsive"
-              width={1024}
-              height={768}
-              className="rounded-lg"
-            />
-          </div>
-          <div className="w-1/2 bg-red-900 ">
-            <Image
-              src="/placeholder.jpg"
-              alt="Placeholder image"
-              layout="responsive"
-              width={1024}
-              height={768}
-              className="rounded-lg"
-            />
-          </div>
+          {ImageCollectionData.images.map(
+            (image: any, index: number) =>
+              index !== 0 && (
+                // Skip the first image as it's already displayed above
+                <div key={index} className="w-1/2">
+                  <Image
+                    src={`/images/collection-1/${image.src}`}
+                    alt={image.alt || `Image ${index + 1}`}
+                    width={image.width} // Aspect ratio width
+                    height={image.height} // Aspect ratio height
+                    className="aspect-3/2 object-cover"
+                  />
+                </div>
+              )
+          )}
         </div>
       </div>
     </div>
