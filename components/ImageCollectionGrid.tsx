@@ -20,7 +20,10 @@ export default function ImageGrid({
       <div className="w-full" />
       <div className="flex flex-wrap">
         {images.map(
-          (image: any, index: number) =>
+          (
+            image: { src: string; width: number; height: number },
+            index: number
+          ) =>
             index !== 0 && (
               // Skip the first image as it's already displayed above
               <div key={index} className="w-1/2">
