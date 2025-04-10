@@ -1,4 +1,4 @@
-import Image from "next/image";
+import ImageCollectionGrid from "./ImageCollectionGrid";
 
 interface ImageCollectionData {
   title: string;
@@ -38,34 +38,10 @@ export default function ImageCollection({
           ))}
         </div>
       </div>
-      <div className="bg-gray-200 w-full lg:w-2/3 flex flex-col">
-        <Image
-          src={`/images/collection-1/${ImageCollectionData.images[0].src}`}
-          alt={ImageCollectionData.title}
-          width={ImageCollectionData.images[0].width} // Aspect ratio width
-          height={ImageCollectionData.images[0].height} // Aspect ratio height
-          className=""
-          priority={true}
-        />
-        <div className="w-full" />
-        <div className="flex flex-wrap">
-          {ImageCollectionData.images.map(
-            (image: any, index: number) =>
-              index !== 0 && (
-                // Skip the first image as it's already displayed above
-                <div key={index} className="w-1/2">
-                  <Image
-                    src={`/images/collection-1/${image.src}`}
-                    alt={image.alt || `Image ${index + 1}`}
-                    width={image.width} // Aspect ratio width
-                    height={image.height} // Aspect ratio height
-                    className="aspect-3/2 object-cover"
-                  />
-                </div>
-              )
-          )}
-        </div>
-      </div>
+      <ImageCollectionGrid
+        images={ImageCollectionData.images}
+        title={ImageCollectionData.title}
+      />
     </div>
   );
 }
