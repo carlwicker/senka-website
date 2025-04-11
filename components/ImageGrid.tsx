@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function ImageGrid({
   images,
 }: {
-  images: { src: string; width: number; height: number; alt: string }[];
+  images: { src: string; alt: string }[];
 }) {
   return (
     <div className="lg:w-2/3 flex flex-col w-full">
@@ -22,10 +22,7 @@ export default function ImageGrid({
       <div className="w-full" />
       <div className="flex flex-wrap">
         {images.map(
-          (
-            image: { src: string; width: number; height: number },
-            index: number
-          ) =>
+          (image: { src: string }, index: number) =>
             index !== 0 && (
               // Skip the first image as it's already displayed above
               <div key={index} className="w-1/2">

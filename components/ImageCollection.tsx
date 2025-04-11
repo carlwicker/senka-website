@@ -5,7 +5,7 @@ interface ImageCollectionData {
   dimensions: string;
   year: number;
   description: string[];
-  images: { src: string; width: number; height: number; alt?: string }[];
+  images: { src: string; alt: string }[];
 }
 
 export default function ImageCollection({
