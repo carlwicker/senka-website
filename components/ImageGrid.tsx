@@ -33,7 +33,6 @@ export default function ImageGrid({
                     alt={images[index].alt}
                     sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                     className="aspect-3/2 object-cover"
-                    loading="eager"
                     quality={80}
                     priority={index < 2}
                   />
