@@ -4,15 +4,15 @@ export default function ImageGrid({
   images,
   title,
 }: {
-  images: { src: string; width: number; height: number }[];
+  images: { src: string; width: number; height: number; alt: string }[];
   title: string;
 }) {
   return (
     <div className="lg:w-2/3 flex flex-col w-full">
-      <div className="relative w-full aspect-3/2 ">
+      <div className="relative w-full aspect-3/2" role="img">
         <Image
           src={`/images/collection/${images[0].src}`}
-          alt={title}
+          alt={images[0].alt}
           priority={true}
           fill
           sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
@@ -31,11 +31,11 @@ export default function ImageGrid({
             index !== 0 && (
               // Skip the first image as it's already displayed above
               <div key={index} className="w-1/2">
-                <div className="relative w-full aspect-3/2 ">
+                <div className="relative w-full aspect-3/2" role="img">
                   <Image
                     src={`/images/collection/${image.src}`}
-                    alt={`${title} #${index + 1}`}
                     fill
+                    alt={images[index].alt}
                     sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                     className="aspect-3/2 object-cover"
                     loading="eager"
