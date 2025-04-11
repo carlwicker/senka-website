@@ -15,7 +15,7 @@ export default function Footer() {
             aria-label="Instagram"
             rel="noopener noreferrer"
           >
-            <FaInstagram size={30} />
+            <FaInstagram size={30} role="img" />
           </a>
         </div>
       </div>

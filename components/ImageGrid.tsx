@@ -9,7 +9,7 @@ export default function ImageGrid({
 }) {
   return (
     <div className="lg:w-2/3 flex flex-col w-full">
-      <div className="relative w-full aspect-3/2" role="img">
+      <div className="relative w-full aspect-3/2">
         <Image
           src={`/images/collection/${images[0].src}`}
           alt={images[0].alt}
@@ -31,7 +31,7 @@ export default function ImageGrid({
             index !== 0 && (
               // Skip the first image as it's already displayed above
               <div key={index} className="w-1/2">
-                <div className="relative w-full aspect-3/2" role="img">
+                <div className="relative w-full aspect-3/2">
                   <Image
                     src={`/images/collection/${image.src}`}
                     fill
@@ -39,6 +39,7 @@ export default function ImageGrid({
                     sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                     className="aspect-3/2 object-cover"
                     loading="eager"
+                    quality={100}
                   />
                 </div>
               </div>

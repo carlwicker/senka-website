@@ -11,7 +11,7 @@
     "images": [
       {
         "src": "dark-1.jpg",
-        "alt": "1 image",
+        "alt": "Untitled #1",
         "width": 1024,
         "height": 768,
         "className": "rounded-lg",
@@ -19,42 +19,42 @@
       },
       {
         "src": "dark-2.jpg",
-        "alt": "2 image",
+        "alt": "Untitled #2",
         "width": 1024,
         "height": 768,
         "className": "rounded-lg"
       },
       {
         "src": "dark-3.jpg",
-        "alt": "3 image",
+        "alt": "Untitled #3",
         "width": 1024,
         "height": 768,
         "className": "rounded-lg"
       },
       {
         "src": "dark-4.jpg",
-        "alt": "4 image",
+        "alt": "Untitled #4",
         "width": 1024,
         "height": 768,
         "className": "rounded-lg"
       },
       {
         "src": "dark-5.jpg",
-        "alt": "5 image",
+        "alt": "Untitled #5",
         "width": 1024,
         "height": 768,
         "className": "rounded-lg"
       },
       {
         "src": "dark-6.jpg",
-        "alt": "6 image",
+        "alt": "Untitled #6",
         "width": 1024,
         "height": 768,
         "className": "rounded-lg"
       },
       {
         "src": "dark-7.jpg",
-        "alt": "7 image",
+        "alt": "Untitled #7",
         "width": 1024,
         "height": 768,
         "className": "rounded-lg"
