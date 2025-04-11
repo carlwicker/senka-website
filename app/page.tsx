@@ -9,9 +9,9 @@ export default function Home() {
   return (
     <div>
       <div className="px-5 pt-20">
-        <div className="bg-white flex flex-col container mx-auto gap-40">
-          <header className="lg:gap-10 flex">
-            <div className="flex flex-col gap-20 lg:w-1/3 ">
+        <div className="container flex flex-col mx-auto gap-40">
+          <header className="flex lg:gap-10">
+            <div className="flex flex-col gap-20 lg:w-1/3">
               <Header />
               <SubHeader />
             </div>
