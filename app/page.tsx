@@ -21,7 +21,7 @@ export default function Home() {
           </main>
         </div>
       </div>
-      <footer>
+      <footer className="px-5 bg-[#111]">
         <Footer />
       </footer>
     </div>
