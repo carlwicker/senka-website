@@ -14,7 +14,7 @@ export default function ImageGrid({
         alt={title}
         width={images[0].width} // Aspect ratio width
         height={images[0].height} // Aspect ratio height
-        className=""
+        className="aspect-3/2 object-cover"
         priority={true}
       />
       <div className="w-full" />
@@ -33,6 +33,7 @@ export default function ImageGrid({
                   width={image.width} // Aspect ratio width
                   height={image.height} // Aspect ratio height
                   className="aspect-3/2 object-cover"
+                  loading="eager"
                 />
               </div>
             )

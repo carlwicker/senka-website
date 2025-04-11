@@ -1,6 +1,6 @@
 export default function Header() {
   return (
-    <div className="flex flex-col pt-48 font-sans gap-10">
+    <div className="flex flex-col font-sans gap-10">
       <h1 className="text-4xl font-bold uppercase tracking-wide">
         Senka Loosemore
       </h1>

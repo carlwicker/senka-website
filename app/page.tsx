@@ -8,11 +8,14 @@ import imageCollectionData from "@/data/imageCollectionData.json";
 export default function Home() {
   return (
     <div>
-      <div className="flex flex-col gap-20 px-5">
-        <div className="bg-white flex flex-col text-black container mx-auto gap-40">
-          <header className="flex flex-col gap-20">
-            <Header />
-            <SubHeader />
+      <div className="flex flex-col gap-20 pt-20 px-5">
+        <div className="bg-white flex flex-col text-black container mx-auto gap-20">
+          <header className="lg:gap-10 flex">
+            <div className="flex flex-col gap-20 lg:w-1/3 ">
+              <Header />
+              <SubHeader />
+            </div>
+            <div className="lg:w-2/3 lg:visible"></div>
           </header>
           <main className="flex flex-col gap-20">
             {imageCollectionData.map((item, index) => (

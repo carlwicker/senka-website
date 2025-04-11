@@ -14,8 +14,8 @@ export default function ImageCollection({
   ImageCollectionData: ImageCollectionData;
 }) {
   return (
-    <div className="flex gap-16 lg:flex-row flex-col-reverse">
-      <div className="flex flex-col w-full lg:w-1/3 gap-8 container mx-auto">
+    <div className="flex gap-10 lg:flex-row flex-col-reverse">
+      <div className="flex flex-col w-full lg:w-1/3 gap-10 container mx-auto">
         <div>
           <h1 className="font-sans font-bold text-3xl uppercase tracking-wide">
             {ImageCollectionData.title}
