@@ -33,10 +33,7 @@ export default function ImageCollection({
           ))}
         </div>
       </div>
-      <ImageGrid
-        images={ImageCollectionData.images}
-        title={ImageCollectionData.title}
-      />
+      <ImageGrid images={ImageCollectionData.images} />
     </div>
   );
 }

@@ -2,10 +2,8 @@ import Image from "next/image";
 
 export default function ImageGrid({
   images,
-  title,
 }: {
   images: { src: string; width: number; height: number; alt: string }[];
-  title: string;
 }) {
   return (
     <div className="lg:w-2/3 flex flex-col w-full">
@@ -39,7 +37,8 @@ export default function ImageGrid({
                     sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                     className="aspect-3/2 object-cover"
                     loading="eager"
-                    quality={100}
+                    quality={80}
+                    priority={index < 2}
                   />
                 </div>
               </div>
