@@ -14,25 +14,20 @@ export default function ImageCollection({
   ImageCollectionData: ImageCollectionData;
 }) {
   return (
-    <div className="flex gap-10 lg:flex-row flex-col-reverse">
+    <div className="flex gap-10 lg:flex-row flex-col-reverse text-[#555]">
       <div className="flex flex-col w-full lg:w-1/3 gap-10 container mx-auto">
         <div>
-          <h1 className="font-sans font-bold text-3xl uppercase tracking-wide">
+          <h1 className="font-bold text-3xl uppercase tracking-wide">
             {ImageCollectionData.title}
           </h1>
-          <p className="font-sans text-sm uppercase tracking-wider text-gray-500">
+          <p className="text-sm tracking-wider">
             {ImageCollectionData.dimensions}
           </p>
-          <p className="font-sans text-sm uppercase tracking-wider text-gray-500">
-            {ImageCollectionData.year}
-          </p>
+          <p className="text-sm tracking-wider">{ImageCollectionData.year}</p>
         </div>
         <div className="flex flex-col gap-6">
           {ImageCollectionData.description.map((paragraph, index) => (
-            <p
-              key={index}
-              className="font-sans text-base leading-relaxed text-gray-800"
-            >
+            <p key={index} className="text-base leading-relaxed">
               {paragraph}
             </p>
           ))}

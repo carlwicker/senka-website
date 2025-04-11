@@ -8,7 +8,7 @@ export default function ImageGrid({
   title: string;
 }) {
   return (
-    <div className="bg-gray-200 w-full lg:w-2/3 flex flex-col">
+    <div className="w-full lg:w-2/3 flex flex-col">
       <Image
         src={`/images/collection/${images[0].src}`}
         alt={title}

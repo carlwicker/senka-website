@@ -1,8 +1,8 @@
 export default function SubHeader() {
   return (
-    <div className="flex flex-col gap-20">
+    <div className="flex flex-col gap-20 text-[#555]">
       <h3 className="text-3xl font-bold">WORKING TITLE</h3>
-      <p>
+      <p className="text-base font-sans leading-relaxed ">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos libero
         consequuntur quaerat qui facere impedit tempora corrupti, vero aliquid?
         Tempore harum vel porro molestias cum eum eos illo, autem ipsam at dicta

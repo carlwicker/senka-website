@@ -8,8 +8,8 @@ import imageCollectionData from "@/data/imageCollectionData.json";
 export default function Home() {
   return (
     <div>
-      <div className="flex flex-col gap-20 pt-20 px-5">
-        <div className="bg-white flex flex-col text-black container mx-auto gap-20">
+      <div className="px-5 pt-20">
+        <div className="bg-white flex flex-col container mx-auto gap-40">
           <header className="lg:gap-10 flex">
             <div className="flex flex-col gap-20 lg:w-1/3 ">
               <Header />
