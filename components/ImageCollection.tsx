@@ -1,4 +1,4 @@
-import ImageCollectionGrid from "./ImageCollectionGrid";
+import ImageGrid from "./ImageGrid";
 
 interface ImageCollectionData {
   title: string;
@@ -33,7 +33,7 @@ export default function ImageCollection({
           ))}
         </div>
       </div>
-      <ImageCollectionGrid
+      <ImageGrid
         images={ImageCollectionData.images}
         title={ImageCollectionData.title}
       />
