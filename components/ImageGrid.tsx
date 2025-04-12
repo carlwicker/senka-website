@@ -31,6 +31,7 @@ export default function ImageGrid({
 
           return (
             <div key={index} className="w-1/2">
+              <div className="w-full h-1"></div>
               <div className="relative w-full aspect-3/2">
                 <Image
                   src={`/images/collection/${image.src}`}

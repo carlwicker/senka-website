@@ -36,7 +36,7 @@ export default function Home() {
             </div>
             <div className="lg:w-2/3 lg:visible"></div>
           </div>
-          <main className="flex flex-col gap-20">
+          <main className="flex flex-col gap-40">
             {imageCollectionData.map((item, index) => (
               <ImageCollection key={index} ImageCollectionData={item} />
             ))}
