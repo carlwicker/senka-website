@@ -20,10 +20,6 @@ export default function Home() {
                   corrupti, vero aliquid? Tempore harum vel porro molestias cum
                   eum eos illo.
                 </h2>
-              </div>
-
-              <div className="flex flex-col gap-20">
-                <h3 className="text-3xl font-bold">WORKING TITLE</h3>
                 <p className="text-base leading-relaxed ">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos
                   libero consequuntur quaerat qui facere impedit tempora

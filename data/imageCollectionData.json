@@ -38,5 +38,41 @@
         "alt": "Untitled #7"
       }
     ]
+  },
+  {
+    "title": "24 Hours",
+    "dimensions": "616mm x 1169mm",
+    "year": 2025,
+    "description": [
+      "Ipsimum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "Ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      " Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+    ],
+    "images": [
+      {
+        "src": "24hr-1.jpg",
+        "alt": "Untitled #1"
+      },
+      {
+        "src": "24hr-2.jpg",
+        "alt": "Untitled #2"
+      },
+      {
+        "src": "24hr-3.jpg",
+        "alt": "Untitled #3"
+      },
+      {
+        "src": "24hr-4.jpg",
+        "alt": "Untitled #4"
+      },
+      {
+        "src": "24hr-5.jpg",
+        "alt": "Untitled #5"
+      },
+      {
+        "src": "24hr-6.jpg",
+        "alt": "Untitled #6"
+      }
+    ]
   }
 ]
