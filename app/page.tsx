@@ -6,6 +6,9 @@ import imageCollectionData from "@/data/imageCollectionData.json";
 export default function Home() {
   return (
     <div>
+      <head>
+        <title>Senka Loosemore | Selected Works</title>
+      </head>
       <div className="px-5 pt-20 text-[#333]">
         <div className="container flex flex-col mx-auto gap-40">
           <div className="flex lg:gap-10">
