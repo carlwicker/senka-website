@@ -34,7 +34,7 @@ export default function ImageGrid({
               <div className="w-full h-1"></div>
               <div className="relative w-full aspect-3/2">
                 <Image
-                  src={`/images/collection/${image.src}`}
+                  src={`/images/collection/${image?.src}`}
                   fill
                   alt={image.alt}
                   sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, (max-width: 1280px) 25vw, 20vw"

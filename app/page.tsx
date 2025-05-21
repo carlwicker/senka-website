@@ -9,11 +9,11 @@ export default function Home() {
       <head>
         <title>Senka Loosemore | Selected Works</title>
       </head>
-      <div className="px-5 pt-20 text-[#333]">
+      <div className="px-5 py-10 text-[#333]">
         <div className="container flex flex-col mx-auto gap-40">
           <div className="flex lg:gap-10">
             <div className="flex flex-col gap-20 lg:w-1/3">
-              <h1 className="text-4xl font-bold uppercase tracking-wide ">
+              <h1 className="text-2xl font-bold uppercase tracking-wide ">
                 Senka Loosemore
               </h1>
               <div className="flex flex-col gap-10">
