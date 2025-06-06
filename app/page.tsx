@@ -16,7 +16,7 @@ export default function Home() {
               <h1 className="text-2xl font-bold uppercase tracking-wide ">
                 Senka Loosemore
               </h1>
-              <div className="flex flex-col gap-10">
+              {/* <div className="flex flex-col gap-10">
                 <h2 className="text-xl">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos
                   libero consequuntur quaerat qui facere impedit tempora
@@ -35,7 +35,7 @@ export default function Home() {
                   temporibus! Facere, consectetur voluptatem. Amet repellendus
                   tenetur quis odit totam, perspiciatis voluptate?
                 </p>
-              </div>
+              </div> */}
             </div>
             <div className="lg:w-2/3 lg:visible"></div>
           </div>
